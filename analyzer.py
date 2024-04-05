@@ -9,7 +9,6 @@ def analys():
     model = BertForSequenceClassification.from_pretrained('SkolkovoInstitute/russian_toxicity_classifier')
     model.eval()
     process = psutil.Process()
-
     sm = torch.nn.Softmax(dim=0)
     users_otpravka={}
     users_priemka={}
