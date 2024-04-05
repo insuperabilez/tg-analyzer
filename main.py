@@ -13,8 +13,8 @@ def save_to_json(file_to_save: list[dict[str, str]], file_name: str) -> None:
 
 
 # Укажите свои учетные данные API Telegram
-TELEGRAM_APP_ID  = '26334844'
-TELEGRAM_APP_HASH  = '98c835544cabff10e67558ddce55d7a5'
+TELEGRAM_APP_ID  = 'ВВЕСТИ'
+TELEGRAM_APP_HASH  = 'ВВЕСТИ'
 PHONE_NUMBER ='session'
 # Создайте клиента Telegram
 client = TelegramClient(PHONE_NUMBER, TELEGRAM_APP_ID, TELEGRAM_APP_HASH,device_model = "iPhone 13 Pro Max",
